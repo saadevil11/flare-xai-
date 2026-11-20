@@ -1,0 +1,35 @@
+Matched 33604 labelled training rows.
+
+ReadMe name (by position)    -> column that actually holds those values  max|diff|
+TOTUSJH                      -> MEANPOT                                  1.8e-15   <- differs
+TOTPOT                       -> SHRGT45                                  8.9e-16   <- differs
+TOTUSJZ                      -> MEANJZH                                  1.8e-15   <- differs
+ABSNJZH                      -> TOTPOT                                   1.8e-15   <- differs
+SAVNCPP                      -> MEANSHR                                  8.9e-16   <- differs
+USFLUX                       -> USFLUX                                   1.8e-15
+AREA_ACR                     -> MEANALP                                  4.4e-16   <- differs
+MEANPOT                      -> ABSNJZH                                  1.8e-15   <- differs
+R_VALUE                      -> SAVNCPP                                  2.7e-15   <- differs
+SHRGT45                      -> TOTUSJZ                                  1.8e-15   <- differs
+MEANGAM                      -> MEANGBZ                                  4.4e-16   <- differs
+MEANJZH                      -> MEANJZD                                  8.9e-16   <- differs
+MEANGBT                      -> AREA_ACR                                 1.8e-15   <- differs
+MEANGBZ                      -> MEANGAM                                  4.4e-16   <- differs
+MEANJZD                      -> TOTUSJH                                  1.8e-15   <- differs
+MEANGBH                      -> R_VALUE                                  2.2e-16   <- differs
+MEANSHR                      -> MEANGBT                                  4.4e-16   <- differs
+MEANALP                      -> MEANGBH                                  2.2e-16   <- differs
+
+Physical sanity check (Pearson r on labelled training rows):
+  USFLUX   vs AREA_ACR: headered file r = +0.92 | code-folder file read in ReadMe order r = -0.11
+  TOTUSJH  vs TOTUSJZ : headered file r = +0.98 | code-folder file read in ReadMe order r = -0.12
+  MEANSHR  vs SHRGT45 : headered file r = +0.99 | code-folder file read in ReadMe order r = -0.22
+  MEANJZH  vs MEANALP : headered file r = +0.98 | code-folder file read in ReadMe order r = +0.43
+
+Correlations quoted in FLAIRS 2025 vs. the 540-sample test file read in ReadMe order:
+  TOTPOT -SAVNCPP  paper +1.00 | file (ReadMe order) +1.00 | actual columns: SHRGT45-MEANSHR
+  TOTPOT -TOTUSJZ  paper +0.05 | file (ReadMe order) +0.04 | actual columns: SHRGT45-MEANJZH
+  TOTPOT -MEANGAM  paper -0.69 | file (ReadMe order) -0.66 | actual columns: SHRGT45-MEANGBZ
+  MEANALP-MEANSHR  paper +0.96 | file (ReadMe order) +0.96 | actual columns: MEANGBH-MEANGBT
+  MEANALP-MEANGBZ  paper -0.09 | file (ReadMe order) -0.08 | actual columns: MEANGBH-MEANGAM
+  MEANALP-USFLUX   paper -0.97 | file (ReadMe order) -0.95 | actual columns: MEANGBH-USFLUX

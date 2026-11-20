@@ -1,0 +1,339 @@
+{
+  "groups": {
+    "MEANSHR+SHRGT45+MEANGAM": [
+      "MEANSHR",
+      "SHRGT45",
+      "MEANGAM"
+    ],
+    "MEANPOT": [
+      "MEANPOT"
+    ],
+    "USFLUX+TOTPOT+TOTUSJZ": [
+      "USFLUX",
+      "TOTPOT",
+      "TOTUSJZ"
+    ],
+    "MEANJZH+MEANALP": [
+      "MEANJZH",
+      "MEANALP"
+    ],
+    "SAVNCPP+ABSNJZH": [
+      "SAVNCPP",
+      "ABSNJZH"
+    ],
+    "MEANGBZ": [
+      "MEANGBZ"
+    ]
+  },
+  "corr_threshold": 0.9,
+  "test_full": {
+    "feature_rank_tau_mean_min_max": [
+      0.6383838383838383,
+      0.4545454545454545,
+      0.8484848484848484
+    ],
+    "group_rank_tau_mean_min_max": [
+      0.35999999999999993,
+      -0.06666666666666665,
+      0.7333333333333333
+    ],
+    "top1_feature_per_seed": {
+      "seed0": "MEANPOT",
+      "seed1": "ABSNJZH",
+      "seed2": "ABSNJZH",
+      "seed3": "MEANPOT",
+      "seed4": "ABSNJZH",
+      "seed5": "ABSNJZH",
+      "seed6": "ABSNJZH",
+      "seed7": "ABSNJZH",
+      "seed8": "ABSNJZH",
+      "seed9": "ABSNJZH"
+    },
+    "top3_features_per_seed": {
+      "seed0": [
+        "MEANPOT",
+        "SAVNCPP",
+        "MEANGBZ"
+      ],
+      "seed1": [
+        "ABSNJZH",
+        "MEANPOT",
+        "MEANGBZ"
+      ],
+      "seed2": [
+        "ABSNJZH",
+        "SAVNCPP",
+        "MEANPOT"
+      ],
+      "seed3": [
+        "MEANPOT",
+        "ABSNJZH",
+        "SAVNCPP"
+      ],
+      "seed4": [
+        "ABSNJZH",
+        "MEANPOT",
+        "MEANGBZ"
+      ],
+      "seed5": [
+        "ABSNJZH",
+        "MEANPOT",
+        "MEANGBZ"
+      ],
+      "seed6": [
+        "ABSNJZH",
+        "MEANPOT",
+        "SAVNCPP"
+      ],
+      "seed7": [
+        "ABSNJZH",
+        "MEANPOT",
+        "MEANJZH"
+      ],
+      "seed8": [
+        "ABSNJZH",
+        "MEANGBZ",
+        "SAVNCPP"
+      ],
+      "seed9": [
+        "ABSNJZH",
+        "MEANJZH",
+        "MEANPOT"
+      ]
+    },
+    "top1_group_per_seed": {
+      "seed0": "USFLUX+TOTPOT+TOTUSJZ",
+      "seed1": "MEANPOT",
+      "seed2": "USFLUX+TOTPOT+TOTUSJZ",
+      "seed3": "MEANPOT",
+      "seed4": "USFLUX+TOTPOT+TOTUSJZ",
+      "seed5": "SAVNCPP+ABSNJZH",
+      "seed6": "SAVNCPP+ABSNJZH",
+      "seed7": "SAVNCPP+ABSNJZH",
+      "seed8": "SAVNCPP+ABSNJZH",
+      "seed9": "SAVNCPP+ABSNJZH"
+    },
+    "feature_rank_range": {
+      "MEANSHR": [
+        8,
+        12
+      ],
+      "MEANPOT": [
+        1,
+        5
+      ],
+      "SHRGT45": [
+        6,
+        12
+      ],
+      "USFLUX": [
+        4,
+        10
+      ],
+      "MEANJZH": [
+        2,
+        9
+      ],
+      "MEANGAM": [
+        10,
+        12
+      ],
+      "SAVNCPP": [
+        2,
+        9
+      ],
+      "ABSNJZH": [
+        1,
+        4
+      ],
+      "TOTPOT": [
+        4,
+        8
+      ],
+      "MEANALP": [
+        7,
+        12
+      ],
+      "TOTUSJZ": [
+        5,
+        11
+      ],
+      "MEANGBZ": [
+        2,
+        6
+      ]
+    }
+  },
+  "test_demo": {
+    "feature_rank_tau_mean_min_max": [
+      0.5420875420875421,
+      0.0909090909090909,
+      0.8181818181818181
+    ],
+    "group_rank_tau_mean_min_max": [
+      0.42518518518518517,
+      -0.2,
+      0.9999999999999999
+    ],
+    "top1_feature_per_seed": {
+      "seed0": "MEANPOT",
+      "seed1": "MEANPOT",
+      "seed2": "USFLUX",
+      "seed3": "MEANPOT",
+      "seed4": "MEANPOT",
+      "seed5": "MEANPOT",
+      "seed6": "MEANPOT",
+      "seed7": "MEANPOT",
+      "seed8": "MEANGBZ",
+      "seed9": "MEANPOT"
+    },
+    "top3_features_per_seed": {
+      "seed0": [
+        "MEANPOT",
+        "MEANGBZ",
+        "SHRGT45"
+      ],
+      "seed1": [
+        "MEANPOT",
+        "MEANGBZ",
+        "USFLUX"
+      ],
+      "seed2": [
+        "USFLUX",
+        "MEANGBZ",
+        "MEANPOT"
+      ],
+      "seed3": [
+        "MEANPOT",
+        "SHRGT45",
+        "MEANGBZ"
+      ],
+      "seed4": [
+        "MEANPOT",
+        "MEANGBZ",
+        "SHRGT45"
+      ],
+      "seed5": [
+        "MEANPOT",
+        "MEANGBZ",
+        "SAVNCPP"
+      ],
+      "seed6": [
+        "MEANPOT",
+        "SAVNCPP",
+        "ABSNJZH"
+      ],
+      "seed7": [
+        "MEANPOT",
+        "MEANGBZ",
+        "SAVNCPP"
+      ],
+      "seed8": [
+        "MEANGBZ",
+        "MEANPOT",
+        "ABSNJZH"
+      ],
+      "seed9": [
+        "MEANPOT",
+        "MEANGBZ",
+        "SHRGT45"
+      ]
+    },
+    "top1_group_per_seed": {
+      "seed0": "MEANPOT",
+      "seed1": "MEANPOT",
+      "seed2": "USFLUX+TOTPOT+TOTUSJZ",
+      "seed3": "MEANPOT",
+      "seed4": "MEANPOT",
+      "seed5": "MEANPOT",
+      "seed6": "MEANPOT",
+      "seed7": "MEANPOT",
+      "seed8": "MEANGBZ",
+      "seed9": "MEANPOT"
+    },
+    "feature_rank_range": {
+      "MEANSHR": [
+        7,
+        12
+      ],
+      "MEANPOT": [
+        1,
+        3
+      ],
+      "SHRGT45": [
+        2,
+        8
+      ],
+      "USFLUX": [
+        1,
+        11
+      ],
+      "MEANJZH": [
+        4,
+        10
+      ],
+      "MEANGAM": [
+        9,
+        12
+      ],
+      "SAVNCPP": [
+        2,
+        9
+      ],
+      "ABSNJZH": [
+        3,
+        9
+      ],
+      "TOTPOT": [
+        4,
+        11
+      ],
+      "MEANALP": [
+        8,
+        12
+      ],
+      "TOTUSJZ": [
+        6,
+        10
+      ],
+      "MEANGBZ": [
+        1,
+        4
+      ]
+    }
+  },
+  "demo_vs_full_tau_per_seed": {
+    "seed0": 0.606060606060606,
+    "seed1": 0.606060606060606,
+    "seed2": 0.4545454545454545,
+    "seed3": 0.5454545454545454,
+    "seed4": 0.5757575757575757,
+    "seed5": 0.7878787878787877,
+    "seed6": 0.6666666666666666,
+    "seed7": 0.5757575757575757,
+    "seed8": 0.5757575757575757,
+    "seed9": 0.5151515151515151
+  },
+  "permutation_mean_auc_drop_features": {
+    "ABSNJZH": 0.149,
+    "MEANPOT": 0.0976,
+    "MEANGBZ": 0.0539,
+    "SHRGT45": 0.0372,
+    "SAVNCPP": 0.018,
+    "USFLUX": 0.0133,
+    "TOTPOT": 0.0101,
+    "MEANALP": 0.0078,
+    "MEANJZH": 0.0043,
+    "MEANSHR": -0.0113,
+    "MEANGAM": -0.0118,
+    "TOTUSJZ": -0.0217
+  },
+  "permutation_mean_auc_drop_groups": {
+    "SAVNCPP+ABSNJZH": 0.1665,
+    "MEANPOT": 0.0974,
+    "MEANGBZ": 0.0541,
+    "MEANSHR+SHRGT45+MEANGAM": 0.0491,
+    "USFLUX+TOTPOT+TOTUSJZ": 0.0081,
+    "MEANJZH+MEANALP": 0.0067
+  }
+}
